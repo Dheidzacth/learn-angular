@@ -1,0 +1,3 @@
+<div>Keep an eye on the console and click the button...</div>
+<div #divs *ngFor="let item of [1,2]" [id]="'div-' + item">Div {{item}}</div>
+<button (click)="getDivs()">Get divs</button>
